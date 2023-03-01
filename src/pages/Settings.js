@@ -1,6 +1,4 @@
-const Settings = ({ users, theme, currentUserIndex, setCurrentUserIndex, privacyMode, setPrivacyMode, setTheme }) => {
-    console.log(users);
-    
+const Settings = ({ users, theme, currentUserIndex, setCurrentUserIndex, privacyMode, setPrivacyMode, setTheme }) => {    
     return (
         <>
             <h2>Settings</h2>

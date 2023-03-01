@@ -11,7 +11,7 @@ import { initialTasks, initialUsers, initialCurrentUserIndex } from "./assets/da
 const App = () => {
     const [currentUserIndex, setCurrentUserIndex] = useState(0);
     const [users, setUsers] = useState([]);
-    const [tasks, setTasks] = useState(initialTasks);
+    const [tasks, setTasks] = useState([]);
     const [privacyMode, setPrivacyMode] = useState(false);
     const [theme, setTheme] = useState("light");
 
